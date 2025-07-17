@@ -1,5 +1,4 @@
 # Spawn Plugin
-Website: https://www.spigotmc.org/resources/supervanish-be-invisible.1331/
 
 Bukkit-Plugin for Spigot/CraftBukkit (modded Minecraft server)
 

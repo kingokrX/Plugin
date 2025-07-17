@@ -1,0 +1,23 @@
+spawn-set: '&aSpawn location has been set'
+no-permission: '&cYou do not have permission for that command.'
+spawn-not-set: '&cSpawn is not set.'
+player-not-found: '&cPlayer not found.'
+teleported-to-spawn-actionbar: '&8ʏᴏᴜ ᴡᴇʀᴇ ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴛᴏ sᴘᴀᴡɴ.'
+teleported-other: '&7ʏᴏᴜ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ %player% ᴛᴏ sᴘᴀᴡɴ.'
+teleport-cancelled: '&cᴛᴇʟᴇᴘᴏʀᴛ ᴄᴀɴᴄᴇʟʟᴇᴅ ʙᴇᴄᴀᴜsᴇ ʏᴏᴜ ᴍᴏᴠᴇᴅ!'
+teleport-countdown: '&7ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ in &1%seconds%&r &8sᴇᴄᴏɴᴅs. &cᴅᴏ ɴᴏᴛ ᴍᴏᴠᴇ!'
+
+on-first-join-send-player-to-spawn: true
+
+# teleport-delay: 5  # seconds
+# COMING SOON DOSENT WORK YEt ;-;
+
+# sounds
+
+sounds:
+  countdown: block_note_block_bit
+  cancelled: ENTITY_VILLAGER_NO
+  teleport: ENTITY_EXPERIENCE_ORB_PICKUP
+  teleport2: ENTITY_ENDERMAN_TELEPORT
+
+

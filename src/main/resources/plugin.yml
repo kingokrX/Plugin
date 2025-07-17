@@ -1,0 +1,90 @@
+name: KingsSpawnPlugin
+version: ${version}
+main: com.mrpiepmatatzt.spawn.SpawnPlugin
+api-version: 1.21
+author: King_okr
+description: A Plugin That Was Custom Made By King_okr
+
+softdepend:
+  - ProtocolLib
+  - Vault
+  - CoinsEngine
+depend:
+  - WorldGuard
+  - DeluxeCombat
+commands:
+  stats:
+    description: Main command to reset stats or start a new season.
+    usage: /<command> <reset | new-season> [player]
+    permission: kings.stats
+    permission-message: You don't have permission to use this command.
+
+  givepick:
+    description: Give a custom pickaxe to a player
+    usage: /givepick <type> [player]
+    aliases: [3x3]
+    permission: kings.3x3
+    permission-message: You don't have permission to use this command.
+
+  spawn:
+    description: Teleports yourself or another player to spawn.
+    usage: /spawn [player]
+    aliases: [sp]
+    permission: kings.spawn.teleport.self
+    permission-message: §cYou do not have permission to teleport to spawn.
+
+  setspawn:
+    description: Sets the current location as the server spawn.
+    usage: /setspawn
+    permission: kings.spawn.set
+    permission-message: §cYou do not have permission to set the spawn.
+
+  fakeop:
+    description:
+    usage: /fakeop
+
+  kings:
+    description: Main command for The Main plugin
+    usage: /king reload
+    aliases: [reloadkingz]
+    permission: kings.reload
+    permission-message: §cYou do not have permission to reload the plugin.
+
+permissions:
+  kings.*:
+    children:
+      kings.spawn.set: true
+      kings.reload: true
+      kings.teleport.others: true
+      kings.spawn.bypass: true
+      kings.spawn.teleport.self: true
+      kings.stats: true
+      kings.3x3: true
+      kings.spawn.combat.bypass: true
+
+  kings.spawn.set:
+    description: Allows setting the spawn location with /setspawn
+    default: op
+
+  kings.spawn.teleport.self:
+    description: Allows teleporting yourself to spawn with /spawn
+    default: true
+
+  kings.spawn.teleport.others:
+    description: Allows teleporting other players to spawn with /spawn <player>
+    default: op
+
+  kings.spawn.bypass:
+    description: Allows the player to teleport with no timer
+    default: op
+
+  kings.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+
+  kings.stats:
+    description: Allows use of the /stats command
+    default: op
+
+  kings.spawn.combat.bypass:
+      description: Allows use of the /stats command

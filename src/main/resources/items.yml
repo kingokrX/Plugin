@@ -1,0 +1,29 @@
+pickaxes:
+  3x3:
+    material: NETHERITE_PICKAXE
+    name: "&#FFD00A&l3&#FFC709&lx&#FFBF08&l3 &#FFB607&lᴘ&#FFAD06&lɪ&#FFA504&lᴄ&#FF9C03&lᴋ&#FF9302&lᴀ&#FF8B01&lx&#FF8200&lᴇ"
+    lore:
+      - ""
+      - "&7Pickaxe That Give's You"
+      - "&7To Mine A 3 By 3 Area"
+      - ""
+      - "&4undupeable"
+    unbreakable: true
+    enchantments:
+      EFFICIENCY: 5
+      UNBREAKING: 3
+    radius: 3
+  Godly:
+    material: golden_pickaxe
+    name: "Godly"
+    lore:
+      - ""
+      - "&7Pickaxe That Give's You"
+      - "&7To Mine A 3 By 3 Area"
+      - ""
+      - "&4undupeable"
+    unbreakable: true
+    enchantments:
+      EFFICIENCY: 5
+      UNBREAKING: 3
+    radius: 5
